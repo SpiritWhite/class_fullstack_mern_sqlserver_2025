@@ -1,2 +1,3 @@
-# class_fullstack_mern_sqlserver_2025
+# FullStack MERN + SQL SERVER COURSE 2025
+
 Repositorio para llevar el control de las clases practicas impartidas
