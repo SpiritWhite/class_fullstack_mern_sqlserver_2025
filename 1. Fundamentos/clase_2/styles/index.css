@@ -1,0 +1,124 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ body {
+   background-color: #f5f8fa;
+   color: #333;
+   line-height: 1.6;
+ }
+
+ main {
+   max-width: 450px;
+   margin: 40px auto;
+   padding: 30px;
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ h1 {
+   color: #2c3e50;
+   margin-bottom: 15px;
+   font-weight: 600;
+   font-size: 28px;
+ }
+
+ p {
+   margin-bottom: 20px;
+   color: #7f8c8d;
+ }
+
+ form {
+   margin-top: 25px;
+ }
+
+ div {
+   margin-bottom: 20px;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 8px;
+   font-weight: 500;
+   color: #2c3e50;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="password"] {
+   width: 100%;
+   padding: 14px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   font-size: 16px;
+   transition: border 0.3s ease;
+ }
+
+ input:focus {
+   outline: none;
+   border-color: #3498db;
+   box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+ }
+
+ button {
+   width: 100%;
+   padding: 14px;
+   border: none;
+   border-radius: 6px;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: background 0.3s ease;
+ }
+
+ nav {
+   margin-top: 25px;
+   text-align: center;
+   padding-top: 20px;
+   border-top: 1px solid #eee;
+ }
+
+ a {
+   color: #3498db;
+   text-decoration: none;
+   transition: color 0.2s ease;
+   font-weight: 500;
+ }
+
+ a:hover {
+   color: #2980b9;
+   text-decoration: underline;
+ }
+
+ footer {
+   max-width: 450px;
+   margin: 20px auto 40px;
+   text-align: center;
+   color: #7f8c8d;
+   font-size: 14px;
+ }
+
+ footer nav {
+   border-top: none;
+   margin-top: 10px;
+ }
+
+ footer a {
+   margin: 0 10px;
+ }
+
+ /* RESPONSIVE */
+ @media (max-width: 500px) {
+   main {
+     margin: 20px;
+     padding: 25px;
+   }
+
+   h1 {
+     font-size: 24px;
+   }
+ }
