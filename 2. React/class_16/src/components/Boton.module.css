@@ -1,0 +1,29 @@
+/* Boton.module.css */
+.boton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primario {
+  background-color: #007bff;
+  color: white;
+}
+
+.secundario {
+  background-color: #6c757d;
+  color: white;
+}
+
+.auxiliar {
+  background-color: #76b3e9;
+  color: white;
+}
+
+.boton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
