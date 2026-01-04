@@ -1,0 +1,19 @@
+{
+  "name": "class_18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mssql": "^12.2.0",
+    "typeorm": "^0.3.28"
+  }
+}
